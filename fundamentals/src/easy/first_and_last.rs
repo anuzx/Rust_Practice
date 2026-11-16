@@ -9,5 +9,12 @@
 */
 
 pub fn first_and_last(slice: &[i32]) -> Option<(i32, i32)> {
-    todo!()
+    let length = slice.len();
+    if length == 0 {
+        return None;
+    }
+
+    let first = slice[0];
+    let last = slice[length - 1];
+    Some((first, last))
 }

@@ -9,5 +9,6 @@
 */
 
 pub fn append_world(mut s: String) -> String {
-    todo!()
+    let str = s + " world";
+    return str;
 }

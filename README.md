@@ -53,6 +53,3 @@ Assignments are verified by running their corresponding tests. Each problem has 
 3.  **Check Output**:
     The solution is considered correct when the test passes without panics.
 
----
-## Found bug ?
-If you find bug in any of the file, please report in discord Web3 Chat.
